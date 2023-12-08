@@ -7,7 +7,7 @@ I used HTML and CSS to create a minimalistic and modern site with a information 
 A simple Home page with options that displayed on hover.
 [![image](https://github.com/engelhardt-ana/Literature-site/assets/84565524/7fe78395-46d7-4217-8149-faca29059a3b)](https://im4.ezgif.com/tmp/ezgif-4-8c91f13dbb.gif)
 
-One of the page** describing a book with information** about author and a quote from the book as well as link to additional information.
+One of the page **describing a book with information** about author and a quote from the book as well as link to additional information.
 ![image](https://github.com/engelhardt-ana/Literature-site/assets/84565524/079f910f-6cf3-4481-9795-9ae2826bf64f)
 
 
