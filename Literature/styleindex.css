@@ -1,0 +1,132 @@
+/* Resetting default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2; 
+  color: #333;
+  line-height: 1.6;
+}
+
+
+h1 {
+  color: #1a1919; 
+}
+
+ h2, h3, h4 {
+  color: #5a5a5a; 
+}
+
+/* Container for content */
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;  /* no borders*/
+}
+
+/* Styling for book entries */
+
+/* Book styling */
+.book {
+  background-color: #f0efef;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease; /*transition for background color */
+}
+
+.book:hover {
+  background-color: #e8e8e8; /* Light grey color on hover */ }
+
+  .book-image {
+    width: 100px; /* Adjust the width */
+    height: auto; /* Keeps the aspect ratio */
+    transition: transform 0.3s ease; 
+    margin-bottom: 10px;
+  }
+  
+  /* Zoom effect on hover */
+  .book-image:hover {
+    transform: scale(1.2); /* 20% increase in size on hover */
+  }
+
+  .author{
+    background-color: #f8f2f2;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(102, 102, 102, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .author:hover {
+    background-color: #d6d1d1;  }
+
+.book h3 {
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.book p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+
+.book a {
+  color: #1e90ff; /* Blue for links */
+  text-decoration: none;
+}
+
+.book a:hover {
+  text-decoration: underline;
+}
+
+#hidden {
+  display: none;
+}
+
+#visible:hover #hidden {
+  display:block;
+}
+
+  .book-quote {
+    font-style: italic; 
+    margin: 20px 0; /* Add some vertical spacing */
+    padding: 10px; /* Add some space inside the blockquote */
+    border-left: 3px solid #6a5acd; 
+    background-color: #f9f9f9; 
+  }
+  
+  .book-quote p {
+    position: relative; /* Allows for absolute positioning inside */
+    font-family: 'Times New Roman', Times, serif; 
+  }
+  
+
+  .video-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    margin-bottom: 0; /* Adjust or remove the bottom margin as needed */
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .container {
+      width: 95%;
+  }
+}
